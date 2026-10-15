@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Offvault – Privacy Policy</title>
+<style>
+  :root { --text:#1c1f1e; --muted:#5a635f; --line:#dde4e1; --bg:#ffffff; --accent:#006a60; }
+  @media (prefers-color-scheme: dark) {
+    :root { --text:#e0e3e0; --muted:#a9b3af; --line:#2f3633; --bg:#0f1411; --accent:#74d8c8; }
+  }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:32px 20px 64px; }
+  h1 { font-size:1.9rem; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin:32px 0 8px; padding-top:16px; border-top:1px solid var(--line); }
+  .meta { color:var(--muted); margin:0 0 24px; }
+  .summary { border-left:4px solid var(--accent); padding:12px 16px; background:rgba(0,106,96,.06); }
+  ul { padding-left:1.2em; } li { margin:4px 0; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>Offvault – Privacy Policy</h1>
+<p class="meta">Effective date: 15 October 2026 · App: Offvault (com.offvault.app)</p>
+
+<p class="summary"><strong>In short:</strong> Offvault does not collect, upload, sell or share your data.
+The app has no internet permission, so it cannot send anything off your phone by itself.
+Your files only leave the device when <em>you</em> choose Share or Save.</p>
+
+<h2>1. Who we are</h2>
+<p>Offvault is developed by [DEVELOPER NAME] (“we”). Contact details are at the end of this policy.</p>
+
+<h2>2. Data we collect</h2>
+<p><strong>None.</strong> We do not run servers for this app and we do not receive any information from it.
+There are no accounts, no analytics, no advertising and no tracking.</p>
+
+<h2>3. What the app processes on your device</h2>
+<p>To work, Offvault reads and writes data only on your phone:</p>
+<ul>
+  <li><strong>Files you choose</strong> – photos, PDFs and documents you pick or share to the app, so it can
+      remove metadata (such as photo location), redact, compress, convert, scan, lock or unlock them.</li>
+  <li><strong>Text recognition</strong> – Smart Redact uses on-device text recognition to find ID, card and phone
+      numbers in a photo. The recognised text is used only to place the redaction boxes and is not stored or sent.</li>
+  <li><strong>Encrypted vault</strong> – files you add to the vault are encrypted with AES-256 and stored in the app’s
+      private storage. Your PIN is never stored; it is used to unlock the vault’s encryption key.</li>
+  <li><strong>Settings and profile</strong> – your choices (theme, auto-lock, number masking) and the optional
+      name you enter in your profile are stored locally in the app.</li>
+</ul>
+
+<h2>4. Permissions</h2>
+<ul>
+  <li><strong>Biometric / fingerprint</strong> – used only if you turn on fingerprint unlock, through Android’s
+      secure biometric system. The app never receives your fingerprint or face data.</li>
+  <li><strong>No internet permission</strong> – the app is technically unable to connect to the internet.</li>
+  <li>Files are accessed through the Android file and photo pickers, only for the items you select.</li>
+</ul>
+
+<h2>5. Third-party components</h2>
+<ul>
+  <li><strong>Google ML Kit (text recognition and barcode scanning)</strong> – runs entirely on your device inside
+      the app. Its usage-reporting components are disabled in Offvault (the app has no internet permission).</li>
+  <li><strong>Google ML Kit Document Scanner</strong> – the “Scan Document” feature opens a scanner that is provided
+      by Google Play services on your phone, which also handles the camera for scanning. Google Play services is a
+      separate Google component and is covered by
+      <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>. Offvault receives only the scanned
+      page images that you confirm.</li>
+</ul>
+
+<h2>6. Sharing</h2>
+<p>Offvault never shares your data on its own. When you tap <em>Share</em> or <em>Save to device</em>, Android sends
+the file you chose to the app or location you pick; that app’s own privacy policy then applies.</p>
+
+<h2>7. Backups</h2>
+<ul>
+  <li>Android cloud backup and device-to-device transfer are <strong>disabled</strong> for Offvault, so app data is
+      not copied to Google Drive or another phone automatically.</li>
+  <li>A vault backup file is created only when you choose <em>Export backup</em>. It is encrypted with a password
+      you set, and saved to a location you choose. We cannot open or recover it.</li>
+</ul>
+
+<h2>8. Retention and deletion</h2>
+<ul>
+  <li>Data stays on your device until you delete it in the app.</li>
+  <li>Temporary working files are deleted automatically.</li>
+  <li>Uninstalling Offvault deletes all of its data, including the vault. If you lose both your PIN and your
+      recovery key, vault files cannot be recovered – not even by us.</li>
+</ul>
+
+<h2>9. Security</h2>
+<p>Vault files are encrypted with AES-256-GCM. Screens that show your files block screenshots and screen recording,
+and an optional app lock asks for your PIN or fingerprint when the app opens.</p>
+
+<h2>10. Children</h2>
+<p>Offvault is not directed at children under 13 and does not knowingly collect data from anyone, including children.</p>
+
+<h2>11. Changes to this policy</h2>
+<p>If this policy changes, we will update this page and its effective date. Because the app collects no data,
+changes will not affect information we hold – we hold none.</p>
+
+<h2>12. Contact</h2>
+<p>Questions about this policy: [CONTACT EMAIL]</p>
+</main>
+</body>
+</html>
