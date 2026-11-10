@@ -23,7 +23,7 @@
 <body>
 <main>
 <h1>Offvault – Privacy Policy</h1>
-<p class="meta">Effective date: 15 October 2026 · App: Offvault (com.offvault.app)</p>
+<p class="meta">Effective date: 15 October 2026 · Last updated: 10 November 2026 · App: Offvault (com.offvault.app)</p>
 
 <p class="summary"><strong>In short:</strong> Offvault does not collect, upload, sell or share your data.
 The app has no internet permission, so it cannot send anything off your phone by itself.
@@ -43,6 +43,11 @@ There are no accounts, no analytics, no advertising and no tracking.</p>
       remove metadata (such as photo location), redact, compress, convert, scan, lock or unlock them.</li>
   <li><strong>Text recognition</strong> – Smart Redact uses on-device text recognition to find ID, card and phone
       numbers in a photo. The recognised text is used only to place the redaction boxes and is not stored or sent.</li>
+  <li><strong>Copy Text from Image</strong> – reads the text in a photo you pick or take, using the same on-device text
+      recognition, so you can edit, copy or share it. The text is shown only on your screen and is not stored by the
+      app. A photo taken for this feature is kept in the app’s private temporary storage and deleted as soon as its
+      text has been read. Copied text goes to Android’s clipboard, where it is marked as sensitive (Android 13 and
+      later) so the clipboard preview does not show it.</li>
   <li><strong>Encrypted vault</strong> – files you add to the vault are encrypted with AES-256 and stored in the app’s
       private storage. Your PIN is never stored; it is used to unlock the vault’s encryption key.</li>
   <li><strong>Settings and profile</strong> – your choices (theme, auto-lock, number masking) and the optional
@@ -55,6 +60,8 @@ There are no accounts, no analytics, no advertising and no tracking.</p>
       secure biometric system. The app never receives your fingerprint or face data.</li>
   <li><strong>No internet permission</strong> – the app is technically unable to connect to the internet.</li>
   <li>Files are accessed through the Android file and photo pickers, only for the items you select.</li>
+  <li><strong>No camera permission</strong> – when you choose <em>Camera</em> in Copy Text, Offvault asks your phone’s
+      own camera app to take one photo and hand it back. Offvault never controls the camera itself.</li>
 </ul>
 
 <h2>5. Third-party components</h2>
